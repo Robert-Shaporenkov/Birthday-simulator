@@ -16,7 +16,6 @@ def simulate_birthdays(num_people=30, trials=100_000):
         # Check conditions
         if any(c >= 2 for c in counts.values()):
             two_or_more += 1
-            print(two_or_more)
         if any(c >= 3 for c in counts.values()):
             three_or_more += 1
         if any(c >= 4 for c in counts.values()):
